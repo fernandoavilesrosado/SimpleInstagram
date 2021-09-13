@@ -8,13 +8,18 @@ body {
     text-align: center;
     display: flex;
     flex-flow: column;
+    
 }
 
 .image-container{
     width: 500px;
-    background-color: red;
+    background-color:white;
     margin: auto;
-    margin-bottom: 1em;
+
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 3px;
+    margin-bottom: 24px;
+    margin-top: 36px;
 }
 .image-header{
     display: flex;
@@ -29,6 +34,9 @@ body {
 
 .image-counter {
     text-align: right;
+    width: 1rem;
+    height: 1rem;
+    padding: 1rem;
 }
 
 .image-body{
@@ -40,4 +48,36 @@ body {
 
 .image-footer{
     width: 100%;
+    text-align: left;
+}
+.icons{
+    text-align: left;
+    
+}
+.heart{
+    width: 1rem;
+    height: 1rem;
+}
+.comment{
+    width: 1rem;
+    height: 1rem;
+}
+.plane{
+    width: 1rem;
+    height: 1rem;
+}
+.save{
+    width: 1rem;
+    height: 1rem;
+    margin-left: auto;
+}
+.icons-div{
+    display: flex;
+    padding: 1rem;
+}
+span{
+    font-weight: bold;
+}
+p{
+    padding: 1rem;
 }
